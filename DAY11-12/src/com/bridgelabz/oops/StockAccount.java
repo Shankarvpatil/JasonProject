@@ -73,7 +73,7 @@ public class StockAccount {
 	private void getFiledata() {
 		FileReader reader = null;
 		try {
-			reader = new FileReader("/home/bridgeit/Sid/stockaccount.txt");
+			reader = new FileReader("C:\Users\Shankar Patil\Downloads\java1.txt");
 			//	buffered reader to read the file
 			BufferedReader bufferedReader = new BufferedReader(reader);
 			name = bufferedReader.readLine();
@@ -181,7 +181,7 @@ public class StockAccount {
 	 */
 	void writeToFile() {
 		try {
-			PrintWriter writer = new PrintWriter("/home/bridgeit/Sid/stockaccount.txt");
+			PrintWriter writer = new PrintWriter("C:\Users\Shankar Patil\Downloads\java1.txt");
 			writer.write(name + "\n" + cash + "\n" + count + "\n");
 			for (int i = 0; i < count; i++) {
 				CompanyShares share = companyShares[i];
