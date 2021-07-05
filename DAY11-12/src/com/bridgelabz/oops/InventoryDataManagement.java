@@ -44,7 +44,7 @@ public class InventoryDataManagement {
 		scanner.close();
 		PrintWriter printWriter = null;	//	to write data to the file
 		try {
-			printWriter = new PrintWriter("C:\\Users\\ANIKET SHAHANE\\Downloads\\java1.txt");
+			printWriter = new PrintWriter("C:\\Users\\Shankar Patil\\Downloads\\java1.txt");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
