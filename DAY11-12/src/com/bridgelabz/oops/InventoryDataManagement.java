@@ -58,7 +58,7 @@ public class InventoryDataManagement {
 		JSONObject object;	//  object to store every type of inventory
 		
 		try {
-			object = (JSONObject) parser.parse(new FileReader("C:\\Users\\ANIKET SHAHANE\\Downloads\\java1.txt"));
+			object = (JSONObject) parser.parse(new FileReader("C:\\Users\\Shankar Patil\\Downloads\\java1.txt"));
 			array = (JSONArray) object.get("Rice");
 			System.out.println("Rice inventory value: " + getValue(array));
 			array = (JSONArray) object.get("Pulses");
